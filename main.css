@@ -1,0 +1,279 @@
+/*#menu li {
+	display:inline-block;
+	margin: 10px;
+	color: #000;
+	background:#fff;
+	background: rgba(255,255,255, 0.5);
+	-webkit-border-radius: 10px;
+            border-radius: 10px;
+}
+#menu li.active{
+	background:#666;
+	background: rgba(0,0,0, 0.5);
+	color: #fff;
+}
+#menu li a{
+	text-decoration:none;
+	color: #000;
+}
+#menu li.active a:hover{
+	color: #000;
+}
+#menu li:hover{
+	background: rgba(255,255,255, 0.8);
+}
+#menu li a,
+#menu li.active a{
+	padding: 9px 18px;
+	display:block;
+}
+#menu li.active a{
+	color: #fff;
+}
+#menu{
+	position:fixed;
+	top:0;
+	left:0;
+	height: 40px;
+	z-index: 70;
+	width: 100%;
+	padding: 0;
+	margin:0;
+}*/
+
+
+
+
+#section1 {
+	background-image: url(images/background.jpeg);
+	background-size: cover;
+}
+
+#section1 .headline {
+	color: #6B6969;
+	font-size: 76px;
+	font-family: 'Lobster', cursive;
+	position: relative;
+	top: -150px;
+	left: 33%;
+}
+
+#section1 ul {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	top: -150px;
+	left: 28%;
+}
+#section1 li {
+	list-style: none;
+}
+
+#section1 li a {
+	text-decoration: none;
+	color: rgba(151, 142, 142, 1);
+	font-size: 32px;
+	font-family: 'Ubuntu', sans-serif;
+	position: relative;
+	padding: 24px;
+}
+
+#section1 h3 {
+	position: relative;
+	top: 55px;
+	left: 45%;
+	color: rgba(151, 142, 142, 1);
+	font-size: 32px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#section2 {
+	background-image: url(images/sky.jpeg);
+	background-size: cover;
+}
+
+.aboutTitle {
+	font-family: 'Ubuntu', sans-serif;
+	position: absolute;
+	top: 0;
+	left: 45%;
+	text-align: center;
+}
+
+.aboutContent {
+	font-family: 'Oswald', sans-serif;
+	line-height: 2em;
+	margin-top: 20px;
+}
+
+.aboutBubble {
+	/*background-image: url(images/Speech_bubble.svg.png);*/
+}
+
+.gutter {
+	width: 700px;
+	margin: 0 auto;
+	/*background-color: white;*/
+}
+
+.kiwi {
+	width: 250px;
+	border-radius: 18px;
+	float: left;
+	padding: 16px;
+}
+
+#section3{
+	background-image: url(images/white_tiles.png)
+}
+
+
+
+#slide1 {
+		  /* fallback */
+  background-color: #2F2727;
+  background-image: url(images/radial_bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  /* Safari 4-5, Chrome 1-9 */
+  /* Can't specify a percentage size? Laaaaaame. */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#67A924), to(#2F2727));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #67A924, #2F2727);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(circle, #67A924, #2F2727);
+
+  /* IE 10 */
+  background: -ms-radial-gradient(circle, #67A924, #2F2727);
+}
+
+
+
+
+
+#slide2 {
+  /* fallback */
+  background-color: #2F2727;
+  background-image: url(images/radial_bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  /* Safari 4-5, Chrome 1-9 */
+  /* Can't specify a percentage size? Laaaaaame. */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#394C9C), to(#2F2727));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #394C9C, #2F2727);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(circle, #394C9C, #2F2727);
+
+  /* IE 10 */
+  background: -ms-radial-gradient(circle, #394C9C, #2F2727);
+
+
+
+}
+
+#slide3 {
+	  /* fallback */
+  background-color: #2F2727;
+  background-image: url(images/radial_bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  /* Safari 4-5, Chrome 1-9 */
+  /* Can't specify a percentage size? Laaaaaame. */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#767E86), to(#2F2727));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #767E86, #2F2727);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(circle, #767E86, #2F2727);
+
+  /* IE 10 */
+  background: -ms-radial-gradient(circle, #767E86, #2F2727);
+}
+
+#slide4 {
+		  /* fallback */
+  background-color: #203B33;
+  background-image: url(images/radial_bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  /* Safari 4-5, Chrome 1-9 */
+  /* Can't specify a percentage size? Laaaaaame. */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#3C886E), to(#2F2727));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #3C886E, #2F2727);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(circle, #3C886E, #2F2727);
+
+  /* IE 10 */
+  background: -ms-radial-gradient(circle, #3C886E, #2F2727);
+}
+
+.portHead {
+	font-size: 48px;
+	font-family: 'Ubuntu', sans-serif;
+	position: relative;
+	top: -30px;
+	left: 25%;
+}
+
+.jorts {
+	width: 600px;
+	position: relative;
+	left: 25%;
+	top: -70px;
+	padding-top: 20px;
+}
+
+.portDescription {
+	width: 600px;
+	/*background-color: rgba(255, 253, 253, .6);*/
+	position: relative;
+	left: 25%;
+	top: -40px;
+	font-size: 18px;
+	font-family: 'Oswald', sans-serif;
+	position: relative;
+	padding: 5px;
+	text-align: center;
+}
+
+.portTitle {
+	margin-top: 2px;
+	font-size: 28px;
+	text-align: center;
+}
+
+#section4{
+	background-image: url(images/felt.png);
+}
+
+.contactHead {
+	font-size: 48px;
+	font-family: 'Ubuntu', sans-serif;
+	position: absolute;
+	top: 20px;
+	left: 40%;
+	color: black;
+}
+
+.contactContent {
+	background-color: white;
+	position: absolute;
+	left: 60%;
+	top: 25%;
+}
+
+
+
